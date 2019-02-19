@@ -1,0 +1,72 @@
+@model Abuse.Models.Docket
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Docket</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.CreateDate)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.CreateDate)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Accussed)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Accussed)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.AccussedDescription)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.AccussedDescription)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Offense)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Offense)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.DateOfOffense)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.DateOfOffense)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Victim)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Victim)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.AddressOfOffender)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.AddressOfOffender)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.OfficerOnCase)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.OfficerOnCase)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.InvestigativeOfficer)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.InvestigativeOfficer)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.ID">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

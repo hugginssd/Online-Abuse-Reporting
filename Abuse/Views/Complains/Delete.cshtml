@@ -1,0 +1,65 @@
+@model Abuse.Models.Complain
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Complain</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <input type="hidden" asp-for="ID" />
+        <dt>
+            @Html.DisplayNameFor(model => model.ReportDate)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ReportDate)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.DateOfIncident)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.DateOfIncident)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.VictimName)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.VictimName)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Accused)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Accused)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.PlaceOfIncident)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.PlaceOfIncident)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.AddressOfVictim)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.AddressOfVictim)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.AddressOfAccussed)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.AddressOfAccussed)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            <a asp-action="Index">Back to List</a>
+        </div>
+    </form>
+</div>

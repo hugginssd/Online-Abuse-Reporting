@@ -1,0 +1,11 @@
+c:\users\user\source\repos\Abuse\Abuse\obj\Debug\netcoreapp1.0\Abuse.csproj.CoreCompileInputs.cache
+c:\users\user\source\repos\Abuse\Abuse\obj\Debug\netcoreapp1.0\UserSecretsAssemblyInfo.cs
+c:\users\user\source\repos\Abuse\Abuse\obj\Debug\netcoreapp1.0\Abuse.AssemblyInfoInputs.cache
+c:\users\user\source\repos\Abuse\Abuse\obj\Debug\netcoreapp1.0\Abuse.AssemblyInfo.cs
+c:\users\user\source\repos\Abuse\Abuse\bin\Debug\netcoreapp1.0\Abuse Online System.deps.json
+c:\users\user\source\repos\Abuse\Abuse\bin\Debug\netcoreapp1.0\Abuse Online System.runtimeconfig.json
+c:\users\user\source\repos\Abuse\Abuse\bin\Debug\netcoreapp1.0\Abuse Online System.runtimeconfig.dev.json
+c:\users\user\source\repos\Abuse\Abuse\bin\Debug\netcoreapp1.0\Abuse Online System.dll
+c:\users\user\source\repos\Abuse\Abuse\bin\Debug\netcoreapp1.0\Abuse Online System.pdb
+c:\users\user\source\repos\Abuse\Abuse\obj\Debug\netcoreapp1.0\Abuse Online System.dll
+c:\users\user\source\repos\Abuse\Abuse\obj\Debug\netcoreapp1.0\Abuse Online System.pdb
